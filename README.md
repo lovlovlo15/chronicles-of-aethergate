@@ -55,32 +55,52 @@ Chronicles of Aether Gate is a fully-featured RPG adventure game where players e
 - **Pillow (PIL)** - Image processing
 - **JSON** - Data persistence
 
-### **Code Organization**
-chronicles_of_aethergate/
-├── launcher.py # Game launcher and main menu
-├── main.py # Main game controller
-├── models/ # Data models
-│ ├── player.py # Player character system
-│ ├── enemy.py # Enemy classes and AI
-│ └── item.py # Item system
-├── engine/ # Game logic
-│ ├── world_loader.py # Data loading utilities
-│ ├── combat.py # Combat engine
-│ ├── item_manager.py # Item management
-│ ├── save_load.py # Save/load system
-│ └── victory.py # Victory conditions
-├── ui/ # User interface
-│ ├── gui.py # Main game GUI
-│ ├── main_menu.py # Title screen
-│ ├── combat_gui.py # Combat interface
-│ ├── inventory_gui.py # Inventory management
-│ └── save_load_gui.py # Save/load interface
-└── data/ # Game assets
-├── rooms.json # Room definitions
-├── enemies.json # Enemy data
-├── items.json # Item database
-└── images/ # Game artwork
+## Code Organization
 
+```text
+chronicles_of_aethergate/
+├── launcher.py         # Game launcher and main menu
+├── main.py             # Main game controller
+├── models/             # Data models
+│   ├── player.py       # Player character system
+│   ├── enemy.py        # Enemy classes and AI
+│   ├── item.py         # Item system
+│   ├── room.py         # Room model
+│   └── __init__.py
+├── engine/             # Game logic
+│   ├── world_loader.py # Data loading utilities
+│   ├── combat.py       # Combat engine
+│   ├── item_manager.py # Item management
+│   ├── save_load.py    # Save/load system
+│   ├── victory.py      # Victory conditions
+│   ├── sound_manager.py# Audio system
+│   └── __init__.py
+├── ui/                 # User interface
+│   ├── gui.py          # Main game GUI
+│   ├── main_menu.py    # Title screen
+│   ├── combat_gui.py   # Combat interface
+│   ├── inventory_gui.py# Inventory management
+│   ├── save_load_gui.py# Save/load interface
+│   ├── dialog.py       # Dialogs and popups
+│   └── theme/          # Theming and custom widgets
+│       ├── theme_engine.py
+│       ├── widgets.py
+│       ├── effects.py
+│       ├── additional_widgets.py
+│       └── __init__.py
+├── data/               # Game assets
+│   ├── rooms.json      # Room definitions
+│   ├── enemies.json    # Enemy data
+│   ├── items.json      # Item database
+│   ├── images/         # Game artwork
+│   └── sounds/         # Sound effects and music
+├── saves/              # Save game files
+├── tests/              # Test suite
+├── requirements.txt    # Runtime dependencies
+├── dev-requirements.txt# Development dependencies
+├── .gitignore          # Git ignore rules
+└── README.md           # Project documentation
+```
 
 ## 🚀 Getting Started
 
