@@ -1,0 +1,29 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+.DS_Store
+/saves/*.json
+!saves/auto_save.json
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.env
+.venv
+env/
+venv/
+ENV/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Project-specific
+saves/*.json
+!saves/auto_save.json
+
+# System files
+.DS_Store
+Thumbs.db

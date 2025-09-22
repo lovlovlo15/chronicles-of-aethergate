@@ -1,0 +1,51 @@
+{
+    "entrance": {
+        "name": "The Grand Entrance",
+        "desc": "You stand at the grand entrance of the Aether Gate facility. Massive brass doors seal the way behind you. Ancient symbols glow along the walls, pulsing in rhythm with your heartbeat. The air hums with mechanical energy.",
+        "exits": {
+            "north": "hallway"
+        },
+        "items": [],
+        "enemy": null
+    },
+    "hallway": {
+        "name": "The Clockwork Hallway",
+        "desc": "Brass pipes line the walls, hissing with steam. The corridor stretches before you with intricate gear mechanisms visible through glass panels. You see ornate doors leading east and west, each marked with glowing runes.",
+        "exits": {
+            "south": "entrance",
+            "east": "laboratory",
+            "west": "armory",
+            "north": "gate_chamber"
+        },
+        "items": [],
+        "enemy": null
+    },
+    "laboratory": {
+        "name": "Crystal Laboratory", 
+        "desc": "Floating aether crystals pulse with inner light above workbenches cluttered with brass instruments. Beakers bubble with luminescent liquids in shades of blue and gold. The air crackles with barely contained magical energy, and arcane formulas are etched into copper plates on the walls.",
+        "exits": {
+            "west": "hallway"
+        },
+        "items": ["mana_potion", "focus_crystal", "aether_crystal"],
+        "enemy": "rogue_automaton"
+    },
+    "armory": {
+        "name": "Mechanical Armory",
+        "desc": "Racks of steam-powered weapons line the walls, each humming with mechanical power. Exo-gauntlets and gear-driven crossbows are displayed on polished stands. A massive clockwork ballista dominates the center of the room, its brass mechanisms gleaming in the gaslight.",
+        "exits": {
+            "east": "hallway"
+        },
+        "items": ["steam_blade", "repair_kit", "steam_gauntlets", "aether_crystal"],
+        "enemy": "clockwork_sentinel"
+    },
+    "gate_chamber": {
+        "name": "The Aether Gate Chamber",
+        "desc": "You stand before the magnificent Aether Gate itself - a towering archway of crystalline metal that reaches toward the vaulted ceiling. Three empty crystal sockets glow with anticipation around the gate's frame. If you have collected all three Aether Crystals, you can activate the gate and complete your mission!",
+        "exits": {
+            "south": "hallway"
+        },
+        "items": ["aether_crystal"],
+        "enemy": "steam_golem",
+        "victory_room": true
+    }
+}

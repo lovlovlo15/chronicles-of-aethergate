@@ -1,0 +1,82 @@
+{
+    "clockwork_sentinel": {
+        "name": "Clockwork Sentinel",
+        "description": "A towering automaton with glowing red eyes and brass armor plating. Steam hisses from its joints as it moves with mechanical precision.",
+        "stats": {
+            "hp": 55,
+            "attack": 10,
+            "defense": 6,
+            "speed": 3,
+            "focus": 3
+        },
+        "abilities": ["power_strike", "defensive_stance", "repair_self"],
+        "ai_pattern": "defensive",
+        "ai_traits": {
+            "aggression": 4,
+            "intelligence": 7,
+            "cowardice": 2
+        },
+        "loot": ["clockwork_parts", "steam_core", "repair_kit"],
+        "icon": "clockwork_sentinel.png"
+    },
+    "rogue_automaton": {
+        "name": "Rogue Automaton",
+        "description": "A smaller, quicker mechanical being with crystal-tipped fingers and erratic movements. Sparks fly from damaged circuitry.",
+        "stats": {
+            "hp": 35,
+            "attack": 8,
+            "defense": 2,
+            "speed": 9,
+            "focus": 4
+        },
+        "abilities": ["quick_strike", "energy_discharge"],
+        "ai_pattern": "hit_and_run",
+        "ai_traits": {
+            "aggression": 8,
+            "intelligence": 6,
+            "cowardice": 7
+        },
+        "loot": ["crystal_shards", "mana_cell", "focus_crystal"],
+        "icon": "rogue_automaton.png"
+    },
+    "steam_golem": {
+        "name": "Steam Golem",
+        "description": "A massive construct of brass and iron, powered by a roaring steam engine within its chest. Pressure gauges and pipes cover its hulking frame.",
+        "stats": {
+            "hp": 75,
+            "attack": 12,
+            "defense": 6,
+            "speed": 2,
+            "focus": 2
+        },
+        "abilities": ["steam_blast", "berserker_rage"],
+        "ai_pattern": "aggressive",
+        "ai_traits": {
+            "aggression": 9,
+            "intelligence": 3,
+            "cowardice": 1
+        },
+        "loot": ["steam_core", "heavy_plating", "pressure_valve"],
+        "icon": "steam_golem.png"
+    },
+    "malfunctioning_drone": {
+        "name": "Malfunctioning Drone",
+        "description": "A small flying automaton with exposed wiring and erratic flight patterns. Its targeting systems appear to be damaged.",
+        "stats": {
+            "hp": 20,
+            "attack": 6,
+            "defense": 1,
+            "speed": 7,
+            "focus": 2
+        },
+        "abilities": ["quick_strike"],
+        "ai_pattern": "basic",
+        "ai_traits": {
+            "aggression": 5,
+            "intelligence": 2,
+            "cowardice": 6
+        },
+        "loot": ["scrap_metal", "wire_coil"],
+        "icon": "malfunctioning_drone.png"
+    }
+}

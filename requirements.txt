@@ -1,0 +1,30 @@
+###############################################################################
+# Chronicles of Aether Gate - Runtime Requirements
+#
+# Python: 3.12+
+# GUI: Tkinter (bundled with CPython; no pip install needed)
+#
+# Core runtime deps:
+###############################################################################
+pillow==10.4.0          # Image loading/resizing (Pillow)
+ttkbootstrap==1.14.2    # Nice theming on top of Tkinter
+
+###############################################################################
+# Optional: Audio backends
+#
+# The game ships with a SoundManager that tries multiple backends in order:
+# 1) pygame.mixer (best experience)
+# 2) System audio player (paplay/aplay/ffplay) if installed
+# 3) Tk bell / ASCII bell as final fallback
+#
+# To enable richer audio via Python, install pygame:
+#   pip install pygame>=2.5.2
+#
+# (Linux alternative) Install a system audio player:
+#   sudo apt-get install pulseaudio-utils   # paplay
+#   sudo apt-get install alsa-utils         # aplay
+#   sudo apt-get install ffmpeg             # ffplay
+#
+# Note: These system packages are not Python wheels and are not installed via pip.
+###############################################################################
+

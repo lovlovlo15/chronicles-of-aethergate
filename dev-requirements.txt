@@ -1,0 +1,16 @@
+###############################################################################
+# Chronicles of Aether Gate - Development Requirements
+#
+# These are for running tests and developing locally. Runtime deps are in
+# requirements.txt. Keep pins stable for reproducible CI/dev.
+###############################################################################
+
+pytest==8.4.1
+pluggy==1.6.0
+iniconfig==2.1.0
+packaging==25.0
+Pygments==2.19.2
+
+# Optional for local audio validation (not required for tests to pass):
+# pygame>=2.5.2
+

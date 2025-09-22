@@ -1,0 +1,100 @@
+{
+    "steam_blade": {
+        "name": "Steam-Powered Blade",
+        "type": "weapon",
+        "description": "A gleaming sword with steam vents along the blade. It hums with mechanical power and releases small puffs of steam with each swing.",
+        "stats": {
+            "attack_bonus": 6,
+            "special": "burn_damage"
+        },
+        "value": 150,
+        "icon": "steam_blade.png",
+        "rarity": "uncommon"
+    },
+    "healing_tonic": {
+        "name": "Healing Tonic",
+        "type": "consumable",
+        "description": "A crystal vial filled with golden liquid that seems to glow with its own light. The liquid swirls gently, emanating warmth.",
+        "stats": {
+            "heal_amount": 30
+        },
+        "value": 25,
+        "stackable": true,
+        "icon": "healing_tonic.png",
+        "rarity": "common"
+    },
+    "aether_crystal": {
+        "name": "Aether Crystal",
+        "type": "key_item",
+        "description": "A precious crystal that pulses with otherworldly energy. One of three needed to open the Gate. The air around it shimmers with power.",
+        "stats": {
+            "victory_item": true
+        },
+        "value": 1000,
+        "icon": "aether_crystal.png",
+        "rarity": "legendary"
+    },
+    "focus_crystal": {
+        "name": "Focus Enhancement Crystal",
+        "type": "accessory",
+        "description": "A small crystal that amplifies magical abilities when worn. It feels warm to the touch and glows faintly blue.",
+        "stats": {
+            "focus_bonus": 2,
+            "defense_bonus": 1
+        },
+        "value": 75,
+        "slot": "necklace",
+        "icon": "focus_crystal.png",
+        "rarity": "uncommon"
+    },
+    "mana_potion": {
+        "name": "Mana Restoration Potion",
+        "type": "consumable", 
+        "description": "A swirling blue potion that restores focus and magical energy. Tiny sparkles float within the liquid.",
+        "stats": {
+            "focus_restore": 3
+        },
+        "value": 40,
+        "stackable": true,
+        "icon": "mana_potion.png",
+        "rarity": "common"
+    },
+    "gear_crossbow": {
+        "name": "Clockwork Crossbow",
+        "type": "weapon",
+        "description": "A mechanical crossbow with intricate gears and springs. It automatically reloads itself with a satisfying click.",
+        "stats": {
+            "attack_bonus": 8,
+            "special": "piercing"
+        },
+        "value": 200,
+        "icon": "gear_crossbow.png",
+        "rarity": "rare"
+    },
+    "repair_kit": {
+        "name": "Mechanical Repair Kit",
+        "type": "consumable",
+        "description": "A set of tiny tools and spare parts for quick field repairs. Contains oil, springs, and copper wire.",
+        "stats": {
+            "heal_amount": 15,
+            "cure_poison": true
+        },
+        "value": 30,
+        "stackable": true,
+        "icon": "repair_kit.png",
+        "rarity": "common"
+    },
+    "steam_gauntlets": {
+        "name": "Steam-Powered Gauntlets",
+        "type": "accessory",
+        "description": "Heavy gauntlets powered by miniature steam engines. They increase your striking power significantly.",
+        "stats": {
+            "attack_bonus": 3,
+            "defense_bonus": 2
+        },
+        "value": 120,
+        "slot": "gloves",
+        "icon": "steam_gauntlets.png",
+        "rarity": "uncommon"
+    }
+}

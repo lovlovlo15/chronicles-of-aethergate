@@ -1,0 +1,46 @@
+{
+  "version": "1.0",
+  "timestamp": "2025-09-22T20:01:11.261597",
+  "player": {
+    "name": "Aether Warden",
+    "hp": 93,
+    "max_hp": 100,
+    "focus": 1,
+    "max_focus": 5,
+    "base_attack": 10,
+    "base_defense": 5,
+    "base_speed": 6,
+    "inventory": [
+      {
+        "id": "healing_tonic",
+        "name": "Healing Tonic",
+        "description": "A crystal vial filled with golden liquid that seems to glow with its own light. The liquid swirls gently, emanating warmth.",
+        "type": "consumable",
+        "stats": {
+          "heal_amount": 30
+        },
+        "value": 25,
+        "stackable": true,
+        "icon": "healing_tonic.png",
+        "rarity": "common"
+      }
+    ],
+    "equipped_weapon": null,
+    "equipped_accessory": null,
+    "current_room": "laboratory",
+    "visited_rooms": [
+      "hallway",
+      "laboratory",
+      "armory",
+      "entrance"
+    ],
+    "aether_crystals": 0,
+    "enemies_defeated": 1,
+    "total_damage_dealt": 35,
+    "total_damage_taken": 7,
+    "status_effects": {}
+  },
+  "game_state": {
+    "current_room": "laboratory"
+  }
+}
